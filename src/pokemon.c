@@ -1377,10 +1377,11 @@ static u16 CalculateBoxMonChecksum(struct BoxPokemon *boxMon)
     return checksum;
 }
 
+// eliminiada la division por 4 de los EVs, ahora cada EV vale 1 punto en cada stat.
 #define CALC_STAT(base, iv, ev, statIndex, field)               \
 {                                                               \
     u8 baseStat = gSpeciesInfo[species].base;                   \
-    s32 n = (((2 * baseStat + iv + ev) * level) / 100) + 5;     \   //Nuevo: Eliminada la division por 4 de los EVS, ahora cada Punto en EV es 1 punto en el stat.
+    s32 n = (((2 * baseStat + iv + ev) * level) / 100) + 5;     \
     u8 nature = GetNature(mon);                                 \
     n = ModifyStatByNature(nature, n, statIndex);               \
     if (B_FRIENDSHIP_BOOST == TRUE)                             \
