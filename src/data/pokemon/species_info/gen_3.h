@@ -49,7 +49,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         ICON(Treecko, 1),
         .footprint = gMonFootprint_Treecko,
         LEARNSETS(Treecko),
-        .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_GROVYLE}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 6, SPECIES_GROVYLE}),
     },
 
     [SPECIES_GROVYLE] =
@@ -97,7 +97,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         ICON(Grovyle, 1),
         .footprint = gMonFootprint_Grovyle,
         LEARNSETS(Grovyle),
-        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_SCEPTILE}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 7, SPECIES_SCEPTILE}),
     },
 
 #define SCEPTILE_MISC_INFO                                  \
@@ -150,6 +150,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .backAnimId = BACK_ANIM_V_SHAKE,
         PALETTES(Sceptile),
         ICON(Sceptile, 1),
+        .evolutions = EVOLUTION({EVO_LEVEL, 8, SPECIES_SCEPTILE_MEGA}),
     },
 
 #if P_MEGA_EVOLUTIONS
@@ -186,7 +187,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .backAnimId = BACK_ANIM_V_SHAKE,
         PALETTES(SceptileMega),
         ICON(SceptileMega, 1),
-        .isMegaEvolution = TRUE,
+        .isMegaEvolution = FALSE,
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_TREECKO
@@ -373,7 +374,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .backAnimId = BACK_ANIM_SHAKE_GLOW_RED,
         PALETTES(BlazikenMega),
         ICON(BlazikenMega, 0),
-        .isMegaEvolution = TRUE,
+        .isMegaEvolution = FALSE,
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_TORCHIC
@@ -560,7 +561,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .backAnimId = BACK_ANIM_SHAKE_GLOW_BLUE,
         PALETTES(SwampertMega),
         ICON(SwampertMega, 0),
-        .isMegaEvolution = TRUE,
+        .isMegaEvolution = FALSE,
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_MUDKIP
@@ -1807,7 +1808,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .backAnimId = BACK_ANIM_SHAKE_GLOW_GREEN,
         PALETTES(GardevoirMega),
         ICON(GardevoirMega, 1),
-        .isMegaEvolution = TRUE,
+        .isMegaEvolution = FALSE,
     },
 #endif //P_MEGA_EVOLUTIONS
 
@@ -1896,7 +1897,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .backAnimId = BACK_ANIM_SHRINK_GROW_VIBRATE,
         PALETTES(GalladeMega),
         ICON(GalladeMega, 1),
-        .isMegaEvolution = TRUE,
+        .isMegaEvolution = FALSE,
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_GEN_4_CROSS_EVOS
@@ -2934,7 +2935,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .backAnimId = BACK_ANIM_H_VIBRATE,
         PALETTES(SableyeMega),
         ICON(SableyeMega, 2),
-        .isMegaEvolution = TRUE,
+        .isMegaEvolution = FALSE,
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_SABLEYE
@@ -3033,7 +3034,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .backAnimId = BACK_ANIM_V_SHAKE,
         PALETTES(MawileMega),
         ICON(MawileMega, 0),
-        .isMegaEvolution = TRUE,
+        .isMegaEvolution = FALSE,
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_MAWILE
@@ -3224,7 +3225,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .backAnimId = BACK_ANIM_V_SHAKE_LOW,
         PALETTES(AggronMega),
         ICON(AggronMega, 2),
-        .isMegaEvolution = TRUE,
+        .isMegaEvolution = FALSE,
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_ARON
@@ -3361,7 +3362,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .backAnimId = BACK_ANIM_SHRINK_GROW_VIBRATE,
         PALETTES(MedichamMega),
         ICON(MedichamMega, 0),
-        .isMegaEvolution = TRUE,
+        .isMegaEvolution = FALSE,
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_MEDITITE
@@ -3499,7 +3500,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .backAnimId = BACK_ANIM_SHAKE_FLASH_YELLOW,
         PALETTES(ManectricMega),
         ICON(ManectricMega, 0),
-        .isMegaEvolution = TRUE,
+        .isMegaEvolution = FALSE,
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_ELECTRIKE
@@ -4113,7 +4114,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .backAnimId = BACK_ANIM_JOLT_RIGHT,
         PALETTES(SharpedoMega),
         ICON(SharpedoMega, 0),
-        .isMegaEvolution = TRUE,
+        .isMegaEvolution = FALSE,
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_CARVANHA
@@ -4355,7 +4356,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .backAnimId = BACK_ANIM_SHAKE_GLOW_RED,
         PALETTES(CameruptMega),
         ICON(CameruptMega, 0),
-        .isMegaEvolution = TRUE,
+        .isMegaEvolution = FALSE,
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_NUMEL
@@ -4956,7 +4957,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .backAnimId = BACK_ANIM_CONVEX_DOUBLE_ARC,
         PALETTES(AltariaMega),
         ICON(AltariaMega, 0),
-        .isMegaEvolution = TRUE,
+        .isMegaEvolution = FALSE,
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_SWABLU
@@ -6072,7 +6073,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .backAnimId = BACK_ANIM_H_VIBRATE,
         PALETTES(BanetteMega),
         ICON(BanetteMega, 0),
-        .isMegaEvolution = TRUE,
+        .isMegaEvolution = FALSE,
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_SHUPPET
@@ -6474,7 +6475,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .backAnimId = BACK_ANIM_SHRINK_GROW_VIBRATE,
         PALETTES(AbsolMega),
         ICON(AbsolMega, 0),
-        .isMegaEvolution = TRUE,
+        .isMegaEvolution = FALSE,
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_ABSOL
@@ -6617,7 +6618,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .backAnimId = BACK_ANIM_TRIANGLE_DOWN,
         PALETTES(GlalieMega),
         ICON(GlalieMega, 0),
-        .isMegaEvolution = TRUE,
+        .isMegaEvolution = FALSE,
     },
 #endif //P_MEGA_EVOLUTIONS
 
@@ -7259,7 +7260,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .backAnimId = BACK_ANIM_H_SHAKE,
         PALETTES(SalamenceMega),
         ICON(SalamenceMega, 0),
-        .isMegaEvolution = TRUE,
+        .isMegaEvolution = FALSE,
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_BAGON
@@ -7450,7 +7451,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .backAnimId = BACK_ANIM_V_SHAKE,
         PALETTES(MetagrossMega),
         ICON(MetagrossMega, 0),
-        .isMegaEvolution = TRUE,
+        .isMegaEvolution = FALSE,
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_BELDUM
@@ -7697,7 +7698,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .backAnimId = BACK_ANIM_H_VIBRATE,
         PALETTES(LatiasMega),
         ICON(LatiasMega, 2),
-        .isMegaEvolution = TRUE,
+        .isMegaEvolution = FALSE,
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_LATIAS
@@ -7792,7 +7793,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .backAnimId = BACK_ANIM_H_VIBRATE,
         PALETTES(LatiosMega),
         ICON(LatiosMega, 2),
-        .isMegaEvolution = TRUE,
+        .isMegaEvolution = FALSE,
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_LATIOS
@@ -8069,7 +8070,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .backAnimId = BACK_ANIM_SHAKE_GLOW_GREEN,
         PALETTES(RayquazaMega),
         ICON(RayquazaMega, 1),
-        .isMegaEvolution = TRUE,
+        .isMegaEvolution = FALSE,
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_RAYQUAZA

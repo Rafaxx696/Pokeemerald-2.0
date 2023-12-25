@@ -32,7 +32,7 @@
 #include "constants/roulette.h"
 #include "constants/songs.h"
 
-#define BALLS_PER_ROUND 6
+#define BALLS_PER_ROUND 10
 
 // "Board" is used in this file to refer to both the wheel and the bet selection grid
 #define NUM_BOARD_COLORS 3 // Rows on grid
@@ -119,7 +119,7 @@
 #define F_FLASH_ICON             (1 << FLASH_ICON)
 #define F_FLASH_COLUMN           (1 << FLASH_ICON | 1 << FLASH_ICON_2 | 1 << FLASH_ICON_3)
 
-#define MAX_MULTIPLIER 12
+#define MAX_MULTIPLIER 25
 
 #define PALTAG_SHADOW 1
 #define PALTAG_BALL 2
@@ -2276,7 +2276,7 @@ static void DrawGridBackground(u8 selectionId)
 
 static u8 GetMultiplier(u8 selectionId)
 {
-    u8 multipliers[5] = {0, 3, 4, 6, MAX_MULTIPLIER};
+    u8 multipliers[5] = {0, 10, 15, 20, MAX_MULTIPLIER};
 
     if (selectionId > NUM_GRID_SELECTIONS)
         selectionId = 0;
