@@ -675,6 +675,9 @@ const u8 *const gItemEffectTable[ITEMS_COUNT] =
     [ITEM_DIANCITE]           = gItemEffect_EvoItem,
     [ITEM_RED_ORB]            = gItemEffect_EvoItem,
     [ITEM_BLUE_ORB]           = gItemEffect_EvoItem,
+    [ITEM_SYRUPY_APPLE]       = gItemEffect_EvoItem,
+    [ITEM_UNREMARKABLE_TEACUP] = gItemEffect_EvoItem,
+    [ITEM_MASTERPIECE_TEACUP] = gItemEffect_EvoItem,
 
     // Berries
     [ITEM_CHERI_BERRY]        = gItemEffect_CheriBerry,
