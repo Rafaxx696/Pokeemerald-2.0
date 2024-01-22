@@ -20,15 +20,30 @@
     },
     {
       "map": "MAP_ROUTE109",
-      "offset": -40,
+      "offset": -30,
       "direction": "right"
+    },
+    {
+      "map": "MAP_RUTA102B",
+      "offset": -30,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_LITTLEROOT_TOWN",
+      "offset": 0,
+      "direction": "up"
+    },
+    {
+      "map": "MAP_RUTA108A",
+      "offset": 20,
+      "direction": "up"
     }
   ],
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
       "x": 52,
-      "y": 13,
+      "y": 33,
       "elevation": 1,
       "movement_type": "MOVEMENT_TYPE_WALK_SEQUENCE_UP_LEFT_DOWN_RIGHT",
       "movement_range_x": 3,
@@ -40,8 +55,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
-      "x": 35,
-      "y": 12,
+      "x": 34,
+      "y": 32,
       "elevation": 1,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN_AND_UP",
       "movement_range_x": 1,
@@ -54,7 +69,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
       "x": 13,
-      "y": 13,
+      "y": 34,
       "elevation": 1,
       "movement_type": "MOVEMENT_TYPE_ROTATE_CLOCKWISE",
       "movement_range_x": 0,
@@ -66,8 +81,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
-      "x": 8,
-      "y": 7,
+      "x": 7,
+      "y": 27,
       "elevation": 1,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN_UP_AND_RIGHT",
       "movement_range_x": 6,
@@ -80,7 +95,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
       "x": 41,
-      "y": 5,
+      "y": 25,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 1,
@@ -93,7 +108,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_SAILOR",
       "x": 43,
-      "y": 5,
+      "y": 25,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 1,
@@ -106,7 +121,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 42,
-      "y": 4,
+      "y": 24,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 1,
@@ -119,19 +134,21 @@
   ],
   "warp_events": [
     {
-      "x": 29,
-      "y": 6,
+      "x": 20,
+      "y": 21,
       "elevation": 3,
       "dest_map": "MAP_ABANDONED_SHIP_DECK",
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "hidden_item",
-      "x": 38,
-      "y": 14,
+      "x": 42,
+      "y": 23,
       "elevation": 3,
       "item": "ITEM_RARE_CANDY",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_108_RARE_CANDY"

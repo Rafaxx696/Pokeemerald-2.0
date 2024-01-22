@@ -1,0 +1,64 @@
+{
+  "id": "MAP_RUTA102A",
+  "name": "Ruta102A",
+  "layout": "LAYOUT_RUTA102A",
+  "music": "MUS_ROUTE110",
+  "region_map_section": "MAPSEC_ROUTE_102",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_ROUTE102",
+      "offset": 0,
+      "direction": "up"
+    },
+    {
+      "map": "MAP_ROUTE101",
+      "offset": 0,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_OLDALE_TOWN",
+      "offset": 80,
+      "direction": "up"
+    },
+    {
+      "map": "MAP_PETALBURG_CITY",
+      "offset": -38,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_ROUTE105",
+      "offset": 0,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_LITTLEROOT_TOWN",
+      "offset": 40,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_RUTA102B",
+      "offset": 0,
+      "direction": "down"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

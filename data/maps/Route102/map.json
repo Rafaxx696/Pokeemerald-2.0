@@ -15,7 +15,7 @@
   "connections": [
     {
       "map": "MAP_PETALBURG_CITY",
-      "offset": -10,
+      "offset": 0,
       "direction": "left"
     },
     {
@@ -25,20 +25,35 @@
     },
     {
       "map": "MAP_ROUTE101",
-      "offset": 20,
+      "offset": 38,
       "direction": "right"
     },
     {
       "map": "MAP_ROUTE103",
       "offset": -22,
       "direction": "right"
+    },
+    {
+      "map": "MAP_ROUTE105",
+      "offset": -80,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_RUTA102A",
+      "offset": 0,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_RUTA104A",
+      "offset": -40,
+      "direction": "up"
     }
   ],
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_LITTLE_BOY",
       "x": 18,
-      "y": 11,
+      "y": 21,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 0,
@@ -51,7 +66,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
       "x": 33,
-      "y": 14,
+      "y": 24,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
@@ -64,7 +79,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER",
       "x": 25,
-      "y": 15,
+      "y": 25,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
@@ -77,7 +92,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_LASS",
       "x": 8,
-      "y": 7,
+      "y": 15,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN_AND_RIGHT",
       "movement_range_x": 0,
@@ -90,7 +105,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_BOY_1",
       "x": 37,
-      "y": 4,
+      "y": 14,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
       "movement_range_x": 1,
@@ -116,7 +131,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
       "x": 24,
-      "y": 2,
+      "y": 12,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
       "movement_range_x": 0,
@@ -129,7 +144,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
       "x": 25,
-      "y": 2,
+      "y": 12,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
       "movement_range_x": 0,
@@ -142,7 +157,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
       "x": 19,
-      "y": 4,
+      "y": 13,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 1,
@@ -163,7 +178,7 @@
     {
       "type": "sign",
       "x": 17,
-      "y": 2,
+      "y": 12,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route102_EventScript_RouteSignPetalburg"
@@ -171,7 +186,7 @@
     {
       "type": "sign",
       "x": 40,
-      "y": 9,
+      "y": 19,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route102_EventScript_RouteSignOldale"

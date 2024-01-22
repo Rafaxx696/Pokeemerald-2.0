@@ -25,7 +25,32 @@
     },
     {
       "map": "MAP_ROUTE103",
-      "offset": 60,
+      "offset": 68,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_ROUTE134",
+      "offset": 40,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_ROUTE117",
+      "offset": -20,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_ROUTE118",
+      "offset": -20,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_RUTA101A",
+      "offset": 90,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_RUTA103A",
+      "offset": 0,
       "direction": "left"
     }
   ],

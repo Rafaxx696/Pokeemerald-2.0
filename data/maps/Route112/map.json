@@ -27,6 +27,16 @@
       "map": "MAP_ROUTE111",
       "offset": -20,
       "direction": "right"
+    },
+    {
+      "map": "MAP_RUTA112",
+      "offset": -60,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_RUTA112A",
+      "offset": 0,
+      "direction": "left"
     }
   ],
   "object_events": [
@@ -257,7 +267,9 @@
       "dest_warp_id": "1"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "sign",

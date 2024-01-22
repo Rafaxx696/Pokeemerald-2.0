@@ -63,6 +63,17 @@
 #define MAP_UNDERWATER_ROUTE129 (54 | (0 << 8))
 #define MAP_UNDERWATER_ROUTE105 (55 | (0 << 8))
 #define MAP_UNDERWATER_ROUTE125 (56 | (0 << 8))
+#define MAP_RUTA106A            (57 | (0 << 8))
+#define MAP_RUTA102A            (58 | (0 << 8))
+#define MAP_RUTA102B            (59 | (0 << 8))
+#define MAP_RUTA108A            (60 | (0 << 8))
+#define MAP_RUTA101A            (61 | (0 << 8))
+#define MAP_RUTA103A            (62 | (0 << 8))
+#define MAP_RUTA104A            (63 | (0 << 8))
+#define MAP_RUTA112             (64 | (0 << 8))
+#define MAP_RUTA112A            (65 | (0 << 8))
+#define MAP_RUTA114A            (66 | (0 << 8))
+#define MAP_RUTA114B            (67 | (0 << 8))
 
 // gMapGroup_IndoorLittleroot
 #define MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F    (0 | (1 << 8))

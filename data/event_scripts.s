@@ -1067,3 +1067,25 @@ EventScript_VsSeekerChargingDone::
 	.include "data/text/frontier_brain.inc"
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"
+
+	.include "data/maps/Ruta106A/scripts.inc"
+
+	.include "data/maps/Ruta102A/scripts.inc"
+
+	.include "data/maps/Ruta102B/scripts.inc"
+
+	.include "data/maps/Ruta108A/scripts.inc"
+
+	.include "data/maps/Ruta101A/scripts.inc"
+
+	.include "data/maps/Ruta103A/scripts.inc"
+
+	.include "data/maps/Ruta104A/scripts.inc"
+
+	.include "data/maps/Ruta112/scripts.inc"
+
+	.include "data/maps/Ruta112A/scripts.inc"
+
+	.include "data/maps/Ruta114A/scripts.inc"
+
+	.include "data/maps/Ruta114B/scripts.inc"

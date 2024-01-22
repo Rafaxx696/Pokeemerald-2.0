@@ -12,7 +12,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .baseSpeed     = 70,
         .baseSpAttack  = 65,
         .baseSpDefense = 55,
-        .types = { TYPE_GRASS, TYPE_GRASS },
+        .types = { TYPE_GRASS, TYPE_DRAGON },
         .catchRate = 45,
         .expYield = 62,
         .evYield_Speed = 1,
@@ -49,7 +49,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         ICON(Treecko, 1),
         .footprint = gMonFootprint_Treecko,
         LEARNSETS(Treecko),
-        .evolutions = EVOLUTION({EVO_LEVEL, 6, SPECIES_GROVYLE}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_GROVYLE}),
     },
 
     [SPECIES_GROVYLE] =
@@ -60,7 +60,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .baseSpeed     = 95,
         .baseSpAttack  = 85,
         .baseSpDefense = 65,
-        .types = { TYPE_GRASS, TYPE_GRASS },
+        .types = { TYPE_GRASS, TYPE_DRAGON },
         .catchRate = 45,
         .expYield = 142,
         .evYield_Speed = 2,
@@ -97,7 +97,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         ICON(Grovyle, 1),
         .footprint = gMonFootprint_Grovyle,
         LEARNSETS(Grovyle),
-        .evolutions = EVOLUTION({EVO_LEVEL, 7, SPECIES_SCEPTILE}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_SCEPTILE}),
     },
 
 #define SCEPTILE_MISC_INFO                                  \
@@ -126,7 +126,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .baseSpeed     = 120,
         .baseSpAttack  = 105,
         .baseSpDefense = 85,
-        .types = { TYPE_GRASS, TYPE_GRASS },
+        .types = { TYPE_GRASS, TYPE_DRAGON},
         .expYield = 239,
         .abilities = { ABILITY_OVERGROW, ABILITY_NONE, ABILITY_UNBURDEN },
         .cryId = CRY_SCEPTILE,
@@ -150,7 +150,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .backAnimId = BACK_ANIM_V_SHAKE,
         PALETTES(Sceptile),
         ICON(Sceptile, 1),
-        .evolutions = EVOLUTION({EVO_LEVEL, 8, SPECIES_SCEPTILE_MEGA}),
+        .evolutions = EVOLUTION({EVO_ITEM, ITEM_SCEPTILITE, SPECIES_SCEPTILE_MEGA}),
     },
 
 #if P_MEGA_EVOLUTIONS
@@ -201,7 +201,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .baseSpeed     = 45,
         .baseSpAttack  = 70,
         .baseSpDefense = 50,
-        .types = { TYPE_FIRE, TYPE_FIRE },
+        .types = { TYPE_FIRE, TYPE_FIGHTING },
         .catchRate = 45,
         .expYield = 62,
         .evYield_SpAttack = 1,
@@ -345,6 +345,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .backAnimId = BACK_ANIM_SHAKE_GLOW_RED,
         PALETTES(Blaziken),
         ICON(Blaziken, 0),
+        .evolutions = EVOLUTION({EVO_ITEM, ITEM_BLAZIKENITE, SPECIES_BLAZIKEN_MEGA}),
     },
 
 #if P_MEGA_EVOLUTIONS

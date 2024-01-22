@@ -32,6 +32,26 @@
       "map": "MAP_PETALBURG_CITY",
       "offset": 40,
       "direction": "up"
+    },
+    {
+      "map": "MAP_ROUTE102",
+      "offset": 80,
+      "direction": "up"
+    },
+    {
+      "map": "MAP_RUTA102A",
+      "offset": 0,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_RUTA102B",
+      "offset": 40,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_ROUTE107",
+      "offset": 80,
+      "direction": "down"
     }
   ],
   "object_events": [

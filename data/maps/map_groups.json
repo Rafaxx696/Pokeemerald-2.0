@@ -92,7 +92,18 @@
     "Underwater_Route128",
     "Underwater_Route129",
     "Underwater_Route105",
-    "Underwater_Route125"
+    "Underwater_Route125",
+    "Ruta106A",
+    "Ruta102A",
+    "Ruta102B",
+    "Ruta108A",
+    "Ruta101A",
+    "Ruta103A",
+    "Ruta104A",
+    "Ruta112",
+    "Ruta112A",
+    "Ruta114A",
+    "Ruta114B"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",

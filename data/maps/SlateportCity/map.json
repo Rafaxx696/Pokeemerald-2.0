@@ -27,6 +27,21 @@
       "map": "MAP_ROUTE134",
       "offset": 0,
       "direction": "right"
+    },
+    {
+      "map": "MAP_RUTA108A",
+      "offset": -80,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_ROUTE101",
+      "offset": 20,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_RUTA101A",
+      "offset": -18,
+      "direction": "left"
     }
   ],
   "object_events": [
@@ -516,8 +531,8 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 4,
-      "y": 26,
+      "x": 14,
+      "y": 18,
       "elevation": 0,
       "dest_map": "MAP_SLATEPORT_CITY_POKEMON_FAN_CLUB",
       "dest_warp_id": "0"
@@ -551,7 +566,7 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 40,
+      "x": 38,
       "y": 7,
       "elevation": 0,
       "dest_map": "MAP_SLATEPORT_CITY_HARBOR",
@@ -651,8 +666,8 @@
     },
     {
       "type": "sign",
-      "x": 8,
-      "y": 26,
+      "x": 12,
+      "y": 19,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "SlateportCity_EventScript_PokemonFanClubSign"
